@@ -1,11 +1,28 @@
-[gd_scene load_steps=3 format=3 uid="uid://cxpvnny86fxpy"]
+[gd_scene load_steps=4 format=3 uid="uid://cxpvnny86fxpy"]
 
 [ext_resource type="Script" uid="uid://0tm02mjyvy65" path="res://scripts/main/Main.cs" id="1_hyk8p"]
-[ext_resource type="Texture2D" uid="uid://dp3xmg1brtyth" path="res://icon.svg" id="2_iuonh"]
+[ext_resource type="Texture2D" uid="uid://bg778peeabi7h" path="res://assets/art/Sprites/addons/kenney pixel platformer/characters/character_0000.png" id="2_k2fmo"]
+[ext_resource type="Texture2D" uid="uid://den3s103kdpwx" path="res://assets/art/Sprites/addons/kenney pixel platformer/tiles/tile_0000.png" id="3_l3cfh"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_hyk8p")
 
-[node name="Icon" type="Sprite2D" parent="."]
-position = Vector2(441, 365)
-texture = ExtResource("2_iuonh")
+[node name="Character0000" type="Sprite2D" parent="."]
+position = Vector2(282, 389)
+scale = Vector2(2, 2)
+texture = ExtResource("2_k2fmo")
+
+[node name="Tile0000" type="Sprite2D" parent="."]
+position = Vector2(215, 474)
+scale = Vector2(2, 2)
+texture = ExtResource("3_l3cfh")
+
+[node name="Tile0001" type="Sprite2D" parent="."]
+position = Vector2(251, 474)
+scale = Vector2(2, 2)
+texture = ExtResource("3_l3cfh")
+
+[node name="Tile0002" type="Sprite2D" parent="."]
+position = Vector2(282, 474)
+scale = Vector2(2, 2)
+texture = ExtResource("3_l3cfh")
